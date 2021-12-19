@@ -1,0 +1,11 @@
+.station{
+    margin: 5px;
+    border: 1px solid red;
+    width: 6em;
+    height: 6em;
+    align-items: center;
+    justify-content: center;
+}
+.runway{
+    width: 30em;;
+}

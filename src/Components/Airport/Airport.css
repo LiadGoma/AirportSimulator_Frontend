@@ -1,0 +1,62 @@
+.AirportView{
+    display: flex;
+    flex-direction: column;
+    width: 100%
+
+}
+.landingRoute{
+    display: flex;
+    
+    flex-direction: row;
+    direction: rtl;
+}
+.DriveWays{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.Parking{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.btn{
+    border-radius: 20%;
+    border: none;
+    background-color: green;
+    margin-left: 25%;
+    cursor: pointer;
+    width: 10em;
+    height: 5em;
+}
+
+.page{
+   display: flex;
+   width: 100%;
+   height: 97vh;
+}
+.landingsPanel{
+    flex: 1.5;
+}
+.departurePanel{
+    flex: 1.5;
+}
+.airportPanel{
+    flex: 7.5;
+}
+.ul{
+    font-size: 5em;
+}
+.stopBtn{
+    background-color: red;
+}
+.continueBtn{
+    background-color: slategray;
+}
+.btnRow{
+    margin-left: 25%;
+}
+.simulatorSettings{
+    margin-left: 40%;
+}
+
